@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "test-types": "tsc --project ./jsconfig.json",
+    "lint": "eslint -c .eslintrc.cjs ."
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.2.3",
+    "typescript": "^5.4.5"
+  }
+}
